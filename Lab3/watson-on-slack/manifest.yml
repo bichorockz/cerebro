@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: watson-on-slack
+  host: watson-on-slack
+  disk_quota: 512M
+  env:
+    CONVERSATION_USERNAME: 'your_username_goes_in_these_quotes'
+    CONVERSATION_PASSWORD: 'your_password_goes_in_these_quotes'
+    WORKSPACE_ID: 'your_workspace_goes_in_these_quotes'
+    SLACK_TOKEN: 'your_token_goes_in_these_quotes'

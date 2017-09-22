@@ -1,0 +1,27 @@
+{
+  "name": "watson-on-slack",
+  "version": "0.1.0",
+  "description": "A simple program for talking to Watson on Slack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watson",
+    "slack",
+    "chat",
+    "bot",
+    "ai",
+    "conversation"
+  ],
+  "author": "tbarlow@us.ibm.com",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.5.8",
+    "botkit-middleware-watson": "^1.4.0",
+    "cfenv": "^1.0.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4"
+  }
+}

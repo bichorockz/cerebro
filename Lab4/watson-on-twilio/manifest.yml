@@ -1,0 +1,16 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: your_app_name_goes_here
+  host: your_app_name_goes_here
+  disk_quota: 512M
+  env:
+    CONVERSATION_USERNAME: 'your_username_goes_in_these_quotes'
+    CONVERSATION_PASSWORD: 'your_password_goes_in_these_quotes'
+    WORKSPACE_ID: 'your_workspace_goes_in_these_quotes'
+    TWILIO_ACCOUNT_SID: 'your_sid_goes_in_these_quotes'
+    TWILIO_AUTH_TOKEN: 'your_token_goes_in_these_quotes'
+    TWILIO_TO_NUMBER: 'your_number_goes_in_the_quotes'
+    TWILIO_FROM_NUMBER: 'your_number_goes_in_the_quotes'
